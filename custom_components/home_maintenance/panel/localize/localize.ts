@@ -1,9 +1,11 @@
 import * as en from './languages/en.json';
+import * as ru from './languages/ru.json';
 
 import IntlMessageFormat from 'intl-messageformat';
 
 var languages: any = {
     en: en,
+    ru: ru,
 };
 
 export function localize(string: string, language: string, ...args: any[]): string {
